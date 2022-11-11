@@ -19,7 +19,7 @@ public class StatisticsServiceTest {
     }
 
     @Test
-    void findAssert(){
+    void findBigMax(){
         StatisticsService service = new StatisticsService(); //  создаем копию сервиса
 
         long[] incomesInBillions = {12, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12,13}; //передаем данные
